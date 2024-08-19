@@ -1,0 +1,17 @@
+<div class="layout-container">
+  <!-- <i class="pi pi-bars" style="font-size: 1.5rem; padding: 10px; cursor: pointer;" ></i> -->
+  
+  
+  
+  <div class="content-container">
+    <p-sidebar [(visible)]="display" position="left" [style]="{width: '300px'}">
+      <div class="p-d-flex p-ai-center p-p-3">
+        <i class="pi pi-user p-mr-2"></i>
+        <span>{{ 'Username' }}</span> 
+      </div>
+      
+      <p-panelMenu [model]="menuItems" styleClass="p-mt-3"></p-panelMenu>
+    </p-sidebar>
+    <router-outlet></router-outlet>
+  </div>
+</div>

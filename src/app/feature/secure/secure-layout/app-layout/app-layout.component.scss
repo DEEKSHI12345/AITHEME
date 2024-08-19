@@ -1,0 +1,32 @@
+:host ::ng-deep .p-panelmenu .p-panelmenu-header-link {
+    font-weight: bold;
+  }
+  
+  :host ::ng-deep .p-panelmenu .p-panelmenu-header-link .pi {
+    margin-right: 0.5rem;
+  }
+  
+  :host ::ng-deep .p-panelmenu .p-menuitem-link {
+    padding: 0.75rem 1.5rem;
+  }
+  
+  :host ::ng-deep .p-sidebar {
+    background-color: #ffffff;
+    border-right: 1px solid #dddddd;
+  }
+  .layout-container {
+    display: flex;
+  }
+  
+  .content-container {
+    flex: 1;  // Takes up the remaining space next to the sidebar
+    padding: 1rem;
+    margin-left: 300px; // This ensures the content is not overlapped by the sidebar when it is visible
+    background-color: bisque;
+    
+  }
+  
+  p-sidebar {
+    position: relative;
+  }
+  
